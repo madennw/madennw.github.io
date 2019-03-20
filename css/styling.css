@@ -1,0 +1,36 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.homeTitle {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-family: "Century Gothic", sans-serif;
+  font-variant: small-caps;
+  font-weight: lighter;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 72px;
+  color: white;
+}
+
+.homeText {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-family: "Century Gothic", sans-serif;
+  font-weight: lighter;
+  font-kerning: auto;
+  font-size: 30px;
+  color: white;
+}
+
+.homeButton {
+    position: absolute;
+    bottom: 6px;
+    left: 100px;
+}
